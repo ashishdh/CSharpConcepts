@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpConcepts", "CSharpConcepts\CSharpConcepts.csproj", "{9D3ED0C6-E668-4844-85D3-E5333BA0F4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPSConcepts", "OOPSConcepts\OOPSConcepts.csproj", "{B835CF34-1885-48D4-BF13-78F3BA0C93B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9D3ED0C6-E668-4844-85D3-E5333BA0F4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D3ED0C6-E668-4844-85D3-E5333BA0F4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D3ED0C6-E668-4844-85D3-E5333BA0F4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B835CF34-1885-48D4-BF13-78F3BA0C93B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B835CF34-1885-48D4-BF13-78F3BA0C93B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B835CF34-1885-48D4-BF13-78F3BA0C93B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B835CF34-1885-48D4-BF13-78F3BA0C93B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

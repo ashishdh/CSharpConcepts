@@ -2,7 +2,7 @@
 {
     internal class SimpleIfElse
     {
-        public static void main()
+        public static void SimpleIFElse()
         {
             int marks = 75;
 

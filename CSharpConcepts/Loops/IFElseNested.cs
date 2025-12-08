@@ -2,7 +2,7 @@
 {
     public class IFElseNested
     {
-        public static void main()
+        public static void IfElse()
         {
             int age = 25;
             bool hasLicense = true;

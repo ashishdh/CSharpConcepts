@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpConcepts.Loops;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,6 +53,11 @@ namespace CSharpConcepts.Variables
             Console.WriteLine("List: " + string.Join(", ", list));  
             Console.WriteLine( "Dynamic Value: " + dyn );   
             Console.WriteLine("Enum Today: " + todayEnum );
+
+            IFElseNested.IfElse();
+            SimpleIfElse.SimpleIFElse();
+            
+
         }
     }
 }
