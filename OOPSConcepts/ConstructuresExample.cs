@@ -36,12 +36,9 @@
         public void Display()
         {
             Console.WriteLine($"Name: {Name}, Age: {Age}");
-        }
-    }
+        }    
 
-    internal class Program
-    {
-        static void Main(string[] args)
+           public void Run()
         {
             Console.WriteLine("Creating first object with DEFAULT constructor...");
             ConstructuresExample obj1 = new ConstructuresExample();
@@ -56,4 +53,5 @@
             Console.ReadLine();
         }
     }
+
 }
