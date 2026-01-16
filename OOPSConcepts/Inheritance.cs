@@ -40,23 +40,19 @@
             return $"GPT Output using [{attention}] and [{mask}]";
         }
     }
-
-    // Separate demo runner for inheritance/transformer examples
+       
     internal static class InheritanceDemo
     {
         public static void Run()
         {
             System.Console.WriteLine("========= INHERITANCE / TRANSFORMER DEMO =========\n");
-
-            // Direct concrete usage
+                       
             GptModel gpt = new GptModel();
             System.Console.WriteLine("GptModel.Generate(): " + gpt.Generate("Hello Transformer"));
 
-            // Use base-class reference to the derived object
             BaseLanguageModel baseRef = gpt;
             System.Console.WriteLine("BaseLanguageModel reference calling Generate(): " + baseRef.Generate("Prompt via base ref"));
-
-            // Use intermediate TransformerModel reference and show SelfAttention + Tokenize
+                        
             TransformerModel transformerRef = gpt;
             string tokens = baseRef.Tokenize("Sample input for tokenization");
             System.Console.WriteLine("Tokenize() returned: " + tokens);

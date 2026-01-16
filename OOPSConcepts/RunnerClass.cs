@@ -15,11 +15,14 @@ namespace OOPSConcepts
             string name = obj.GetName();
             Console.WriteLine("Name using THIS keyword: " + name);
 
-            // Run separated demos — single console session
             PolymorphismDemo.Run(); 
             InheritanceDemo.Run();
 
-            // Central pause so console stays open once for all demos
+            ExceptionHandling.Run();
+
+            Listexample.Run();
+            DictExample.Run();
+
             Console.WriteLine("Press Enter to exit...");
             Console.ReadLine();
         }

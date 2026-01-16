@@ -50,7 +50,7 @@
 
             Console.WriteLine($"Total objects created: {ConstructuresExample.Count}");
 
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 
